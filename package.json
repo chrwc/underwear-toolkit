@@ -2,8 +2,9 @@
   "name": "underwear-toolkit",
   "version": "0.0.0",
   "description": "toolkit for building toolchains for underwear",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/chrwc/underwear-toolkit/issues"
   },
-  "homepage": "https://github.com/chrwc/underwear-toolkit#readme"
+  "homepage": "https://github.com/chrwc/underwear-toolkit#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
 }
