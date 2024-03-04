@@ -1,0 +1,23 @@
+{
+  "name": "underwear-toolkit",
+  "version": "0.0.0",
+  "description": "toolkit for building toolchains for underwear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrwc/underwear-toolkit.git"
+  },
+  "keywords": [
+    "underwear",
+    "toolkit"
+  ],
+  "author": "C. W. Catton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrwc/underwear-toolkit/issues"
+  },
+  "homepage": "https://github.com/chrwc/underwear-toolkit#readme"
+}
